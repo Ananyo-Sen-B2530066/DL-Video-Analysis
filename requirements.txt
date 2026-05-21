@@ -1,0 +1,10 @@
+numpy
+pandas
+opencv-python
+torch
+torchvision
+torch-geometric
+transformers
+tqdm
+av
+jupyter
