@@ -17,8 +17,47 @@ DL-Video-Analysis/
 └── README.md
 ```
 
+## Dataset
+
+This project uses the SoccerNet dataset for video analysis tasks.
+
+Dataset source:
+
+SoccerNet provides:
+
+- Soccer match videos
+- Event annotations
+- Labels and metadata
+- Additional supporting files
+
+### Download Instructions
+
+1. Download the required dataset files from the official SoccerNet source.
+2. Extract the downloaded files.
+3. Place the dataset inside the project directory:
+
+```text
+DL-Video-Analysis/
+│
+├── dataset/
+│   ├── videos
+│   ├── annotations
+│   └── other_files
+│
+├── feature_extraction.ipynb
+├── model_training.ipynb
+├── model_testing.ipynb
+```
+
+4. Update dataset paths inside notebooks if required.
+
+## Notes
+
+The dataset is not included in this repository due to file size limitations.
+
 ## Features
 
+- Soccer video event analysis
 - Video feature extraction
 - Deep learning model training
 - Model testing and evaluation
